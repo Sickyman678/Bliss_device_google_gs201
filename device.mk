@@ -15,6 +15,8 @@
 #
 
 include device/google/gs-common/device.mk
+# PixelParts
+
 
 TARGET_BOARD_PLATFORM := gs201
 

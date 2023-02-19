@@ -109,12 +109,13 @@
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_min_training_interval=false</item>
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_non_synthetic_logs=false</item>
 
-        <!-- Disable unused AiAi features -->
-        <item>device_personalization_services/Autofill__enable=false</item>
-        <item>device_personalization_services/Autofill__enable_fa=false</item>
-        <item>device_personalization_services/Fedex__enable_fedex=false</item>
-        <item>device_personalization_services/Logging__enable_aiai_clearcut_logging=false</item>
-        <item>device_personalization_services/NotificationAssistant__enable_service=false</item>
-        <item>device_personalization_services/VisualCortex__enable=false</item>
+        <!-- Now Playing Database -->
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=243:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20230212-030106/manifest.json</item>
+
+    </string-array>
+
+    <!-- The package names which can request thermal mitigation. -->
+    <string-array name="thermal_mitigation_allowlisted_packages" translatable="false">
+         <item>com.google.android.connectivitythermalpowermanager</item>
     </string-array>
 </resources>
